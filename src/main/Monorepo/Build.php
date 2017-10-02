@@ -107,7 +107,6 @@ class Build
                     } else {
                         symlink($rootDirectory . '/' . $binary, $binFile);
                     }
-                    symlink($rootDirectory . '/' . $binary, $binFile);
                 }
             }
         }
